@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<title>extension-dbscheduler</title>
+	<!--	<link rel="icon" href="_media/favicon.ico"/>-->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<meta
+		name="keywords"
+		content="axon,axonframework,db-scheduler,github,github-pages"
+	/>
+	<meta name="description" content="An AxonFramework extension using db-scheduler as deadline manager."/>
+	<meta
+		name="viewport"
+		content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+	/>
+	<link
+		rel="stylesheet"
+		href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/buble.css"
+		title="buble"
+	/>
+	<style>
+		nav.app-nav li ul {
+			min-width: 100px;
+		}
+	</style>
+</head>
+
+<body>
+<div id="app">Loading ...</div>
+<script>
+	window.$docsify = {
+		auto2top: true,
+		loadSidebar: true,
+		mergeNavbar: true,
+		maxLevel: 3,
+		repo: 'sandersmee/extension-dbscheduler',
+		subMaxLevel: 2,
+		name: 'extension-dbscheduler',
+	};
+</script>
+<script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+<script>
+	(function () {
+		function loadJS(src, attrs) {
+			document.write(
+				'<script src="' + src + '" ' + (attrs || '') + '><\/script>'
+			);
+		}
+
+		// Public site only
+		if (/docsify/.test(location.host)) {
+		}
+	})();
+</script>
+</body>
+</html>
